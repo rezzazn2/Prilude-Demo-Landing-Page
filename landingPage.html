@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <style>
+        .bg-main-color{
+            background-color: #FBFF7E ;
+        }
+        .btn-sec-color{
+            background-color: #a013ff ;
+        }
+        .card-img-top {
+            height: 300px; /* Atur tinggi gambar sesuai kebutuhan */
+            object-fit: cover;
+        }
+        .max-text{
+            max-width: 500px;
+        }
+        .bg-main-darker{
+            background-color: #d5db21 ;
+        }
+        .minus{
+            margin-top: -69px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg  bg-main-color">
+            <div class="container ">
+                <a class="navbar-brand fw-bold fs-2" href="#">Prilude Demo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item fw-semibold ">
+                            <a class="nav-link fs-5 active" href="#home" >Home</a>
+                        </li>
+                        <li class="nav-item fw-semibold">
+                            <a class="nav-link fs-5" href="#project">Project</a>
+                        </li>                      
+                    </ul>
+                </div>
+                <a href="#home"><img src="img/logo_prilude_web-1.webp" alt=""></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class=" bg-main-color">
+            <div class="container">
+                <div class="d-flex justify-content-between">
+                    <div class=" align-self-center">
+                        <h1 class="max-text">SELAMAT DATANG DI WEBSITE KAMI</h1>
+                        <p class="fs-6 " >Kami mempunyai beberapa Project yang pernah kami Kerjakan</p>
+                        <a href="#project" class="btn btn-sec-color text-light fs-6">Lihat Project</a>
+                    </div>
+                    <div class="">
+                        <img src="img/wepik-export-20230711040449vYJO.png" alt="Hero Image" class="img-fluid" style="max-width: 600px;">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- List-Project Section -->
+        <section id="Project" class="mb-5">
+            <div class="container">
+                <h5 class="text-center mt-5 mb-3 text-warning">Portofolio</h5>
+                <h2 class="text-center mt-2 mb-2 mb-5 border-bottom pb-3">Project Yang Pernah Kami Kerjakan</h2>
+                <div class="row ">
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="mx-4 mb-5">                           
+                                <img src="img/asian-businesswoman-sitting-desk-office-studying-graphs-large-computer-screen.jpg" alt="" class="card-img-top rounded-3  border border-3">                            
+                            <p class="fs-5 fw-semibold mb-0 ">Sistem Informasi FKIP</p>
+                            <p class="fs-7 text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>                           
+                        </div>                      
+                        <div class="mx-4 mb-5">                           
+                                <img src="img/conversation-book-planning-participation-college-university.jpg" alt="" class="card-img-top rounded-3  border border-3">                            
+                            <p class="fs-5 fw-semibold mb-0 ">Sistem Informasi FKIP</p>
+                            <p class="fs-7 text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>                           
+                        </div>                      
+                        <div class="mx-4 mb-5">                           
+                                <img src="img/online-shopping-concept-image-young-asian-modern-woman-holding-credit-card-smartphone-buying-with-smartphone-app-paying-contactless-standing-white-background.jpg" alt="" class="card-img-top rounded-3  border border-3">                            
+                            <p class="fs-5 fw-semibold mb-0 ">BJB</p>
+                            <p class="fs-7 text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>                           
+                        </div>                      
+                        <div class="mx-4 mb-5">                           
+                                <img src="img/portrait-asian-smiling-barista-girl-serving-coffee-standing-near-cafe-counter-apron-preparing.jpg" alt="" class="card-img-top rounded-3  border border-3">                            
+                            <p class="fs-5 fw-semibold mb-0 ">LINKCO</p>
+                            <p class="fs-7 text-body-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>                           
+                        </div>                      
+                        
+                                              
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        
+        <footer>
+            <div class="bg-main-darker pt-1">
+                <div class="container">
+                <a href="#home" ><img src="img/logo_prilude_web-1.webp" alt=""></a>
+                    <div class="d-flex  justify-content-between">
+                            <div class="d-flex  justify-content-between">
+                                <div class="list mx-4">
+                                    <h5 class="text-light fw-bold">Kontak Kami <i class="uil uil-phone"></i></h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#contact" class="text-light fw-semibold text-decoration-none fs-7">Hubungi Kami</a></li>
+                                        <li><a href="#about" class="text-light fw-semibold text-decoration-none fs-7">Tentang Kami</a></li>
+                                        <li><a href="#faq" class="text-light fw-semibold text-decoration-none fs-7">FAQ</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="list mx-4">
+                                    <h5 class="text-light ">Jam Operasional <i class="uil uil-clock-eight"></i></h5>
+                                    <p class="fs-7" style="max-width: 250px;">Senin - Jumat 09:00 s/d 17:00 Sabtu 09:00 s/d 13:30</p>
+                                </div>
+
+                                <div class="list mx-4">
+                                    <h5 class="text-light ">Alamat<i class="uil uil-location-point"></i></h5>
+                                    <p class="fs-7" style="max-width: 250px;">Perum Bumi Citra Permai blok A No. 17, Kec. Indihiang, Kota Tasikmalaya - Jawa Barat</p>
+                                </div>
+                            </div>
+                            <div class="d-flex  justify-content-between flex-column align-items-center minus">
+                                <a href=""><i class="uil uil-facebook fs-1 mx-2"></i></a>
+                                <a href=""><i class="uil uil-instagram-alt fs-1 mx-2"></i></a>
+                                <a href=""><i class="uil uil-whatsapp-alt fs-1 mx-2"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark py-3 text-center"><p class="fs-7 text-light">&copy; 2023 Prilude Studio.All Rights Reserved.</p></div>
+        </footer>
+        
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
